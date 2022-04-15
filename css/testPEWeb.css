@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.826);
+}
+
+header img {
+    border-radius: 50%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.noidung {
+    margin: 0 1em;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.83);
+    display: flex;
+}
+
+.navbar-light .navbar-nav {
+    margin-left: 0.5em;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    width: 108px;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar.navbar-expand-sm.navbar-light {
+    display: block;
+    width: 100%;
+}
+
+.collapse.navbar-collapse .form {
+    display: block;
+    margin-left: 40em;
+}
+
+.anhto img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+.noidung1 {
+    margin-top: 1em;
+}
+
+.noidung1 .row .text h4 {
+    text-align: center;
+    color: yellow;
+}
+
+.noidung1 .row .text p {
+    color: white;
+}
+
+.noidung1 .row .nut button {
+    color: white;
+}
+
+.noidung1 .row .nut {
+    text-align: center;
+}
+
+footer {
+    margin-top: 1em;
+    color: white;
+    border-top: 0.5px solid yellow;
+    display: block;
+    padding-top: 1em;
+    background-color: gray;
+}
+
+footer ul li {
+    margin-left: 1em;
+}
+
+footer .icon {
+    text-align: center;
+}
+
+footer .icon i {
+    margin-right: 1em;
+    font-size: 2.2em;
+    width: 30px;
+    color: white;
+}
